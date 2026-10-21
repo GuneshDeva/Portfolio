@@ -225,7 +225,7 @@ export const projects: Project[] = [
       'Answer submission and result processing',
       'Backend APIs and database integration',
     ],
-    githubUrl: 'https://github.com/GuneshDeva',
+    githubUrl: 'https://github.com/GuneshDeva/ScoreSharp-Online-Exam-Portal',
     image: '/images/projects/ScoreSharp_Portfolio_Project_Overview.jpg',
     imageQuery: 'online examination software dashboard',
   },
