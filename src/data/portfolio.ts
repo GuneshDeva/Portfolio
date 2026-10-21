@@ -48,9 +48,9 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     title: 'Software Developer',
-    company: 'Unizen Technologies Pvt. Ltd.',
-    location: 'Bangalore, Karnataka, India',
-    dates: 'December 2024 – October 2026',
+    company: 'Innerspec Technologies Pvt. Ltd.',
+    location: 'Bangalore, karnataka, India',
+    dates: 'December 2024 – September 2026',
     technologies: ['Java', 'Spring Boot', 'Microservices', 'Angular', 'REST APIs'],
     responsibilities: [
       'Enterprise application development and backend engineering',
@@ -73,7 +73,7 @@ export const experiences: Experience[] = [
   },
   {
     title: 'Java Full Stack Developer',
-    company: 'Infoline System Pvt. Ltd.',
+    company: 'Globe Infotech Pvt. Ltd.',
     location: 'Chennai, Tamil Nadu, India',
     dates: 'June 2022 – February 2024',
     technologies: ['Java', 'Spring Boot', 'Angular', 'MySQL', 'Hibernate', 'REST APIs'],
@@ -270,7 +270,7 @@ export const projects: Project[] = [
       'Token-based authentication',
     ],
     githubUrl: 'https://github.com/GuneshDeva',
-    image: 'https://images.pexels.com/photos/7821762/pexels-photo-7821762.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '',
     imageQuery: 'banking application interface technology',
   },
 ];

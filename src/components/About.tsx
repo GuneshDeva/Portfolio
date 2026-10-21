@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Download, GraduationCap, Code2, Server, Boxes, Film } from 'lucide-react';
 import { personal, highlights } from '@/data/portfolio';
 import SectionHeading from './SectionHeading';
-import ProfilePlaceholder from './ProfilePlaceholder';
+// import ProfilePlaceholder from './ProfilePlaceholder';
 
 const highlightIcons = [GraduationCap, Code2, Server, Boxes, Film];
 
@@ -42,7 +42,7 @@ export default function About() {
                   onError={(event) => {
                     event.currentTarget.style.display = 'none';
                   }}
-                  className="absolute inset-0 z-10 h-full w-full object-cover object-top"
+                  className="absolute inset-0 z-10 block h-full w-full object-cover object-top"
                 />
                 {/* Gradient overlay for readability of location badge */}
                 <div className="absolute inset-x-0 bottom-0 z-20 h-24 bg-gradient-to-t from-ink-900/80 to-transparent" />
