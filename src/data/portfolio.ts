@@ -242,7 +242,7 @@ export const projects: Project[] = [
       'Backend API integration',
       'Database-driven application workflows',
     ],
-    githubUrl: 'https://github.com/GuneshDeva',
+    githubUrl: 'https://github.com/GuneshDeva/Simple-Learn-Trainee-Management',
     image: '/images/projects/SimpleLearn-Actual-Screenshots-Portfolio.png',
     imageQuery: 'administration dashboard management system',
   },
