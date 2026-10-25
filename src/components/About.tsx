@@ -104,16 +104,16 @@ export default function About() {
 
             {/* Download resume */}
             <a
-              href="/resume.pdf"
-              download
+              href="/documents/Gunesh-Murumulla-Resume.pdf"
+              download ="Gunesh-Murumulla-Resume.pdf"
               className="mt-8 inline-flex items-center gap-2 rounded-lg border border-flame-500/30 bg-flame-500/10 px-5 py-3 text-sm font-semibold text-flame-500 transition-all hover:bg-flame-500/20 hover:glow-orange"
             >
               <Download size={16} />
               Download Resume
             </a>
-            <p className="mt-2 font-mono text-xs text-textsub/60">
+            {/* <p className="mt-2 font-mono text-xs text-textsub/60">
               Add your resume as resume.pdf in the public folder to enable download.
-            </p>
+            </p> */}
           </motion.div>
         </div>
       </div>

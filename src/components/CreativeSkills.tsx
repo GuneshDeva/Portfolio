@@ -52,17 +52,107 @@ export default function CreativeSkills() {
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="mt-10 rounded-xl border border-dashed border-cyber-500/15 bg-ink-700/20 p-6 text-center"
-        >
-          <p className="text-sm text-textsub">
-            Video samples and creative projects will be displayed here when provided.
-          </p>
-        </motion.div>
+       
+<motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.5, delay: 0.3 }}
+  className="mt-10"
+>
+  <h3 className="mb-6 text-center text-xl font-semibold text-textmain">
+    Video Editing Samples
+  </h3>
+
+  {/* Both videos inside the same grid */}
+  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+
+    {/* Video 1 */}
+    <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        className="aspect-video w-full bg-black object-contain"
+      >
+        <source src="/videos/main.mp4" type="video/mp4" />
+        Your browser does not support video playback.
+      </video>
+
+      <p className="p-4 text-sm font-medium text-textsub">
+        Amazon Prime Logo Animation
+      </p>
+    </div>
+
+    {/* Video 2 */}
+    <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        className="aspect-video w-full bg-black object-contain"
+      >
+        <source
+          src="/videos/30days- 30 videos- Day 7 final Final.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support video playback.
+      </video>
+
+      <p className="p-4 text-sm font-medium text-textsub">
+        LinkedIn Logo Animation
+      </p>
+    </div>
+
+    {/* Video 3 */}
+    <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        className="aspect-video w-full bg-black object-contain"
+      >
+        <source
+          src="/videos/Comp 2.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support video playback.
+      </video>
+
+      <p className="p-4 text-sm font-medium text-textsub">
+        Cartoon Style Animation
+      </p>
+    </div>
+ {/* Video 4 */}
+    <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="metadata"
+        className="aspect-video w-full bg-black object-contain"
+      >
+        <source
+          src="/videos/Main_1.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support video playback.
+      </video>
+
+      <p className="p-4 text-sm font-medium text-textsub">
+        Partical Disslove Animation -iPhone 
+      </p>
+    </div>
+  </div>
+</motion.div>
+
       </div>
     </section>
   );
