@@ -60,15 +60,15 @@ export default function CreativeSkills() {
   transition={{ duration: 0.5, delay: 0.3 }}
   className="mt-10"
 >
-  <h3 className="mb-6 text-center text-xl font-semibold text-textmain">
+  {/* <h3 className="mb-6 text-center text-xl font-semibold text-textmain">
     Video Editing Samples
-  </h3>
+  </h3> */}
 
   {/* Both videos inside the same grid */}
-  <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+  {/* <div className="grid grid-cols-1 gap-6 sm:grid-cols-2"> */}
 
     {/* Video 1 */}
-    <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
+    {/* <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
       <video
         autoPlay
         muted
@@ -84,10 +84,10 @@ export default function CreativeSkills() {
       <p className="p-4 text-sm font-medium text-textsub">
         Amazon Prime Logo Animation
       </p>
-    </div>
+    </div> */}
 
     {/* Video 2 */}
-    <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
+    {/* <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
       <video
         autoPlay
         muted
@@ -106,10 +106,10 @@ export default function CreativeSkills() {
       <p className="p-4 text-sm font-medium text-textsub">
         LinkedIn Logo Animation
       </p>
-    </div>
+    </div> */}
 
     {/* Video 3 */}
-    <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
+    {/* <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
       <video
         autoPlay
         muted
@@ -128,9 +128,9 @@ export default function CreativeSkills() {
       <p className="p-4 text-sm font-medium text-textsub">
         Cartoon Style Animation
       </p>
-    </div>
+    </div> */}
  {/* Video 4 */}
-    <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
+    {/* <div className="overflow-hidden rounded-xl border border-cyber-500/15 bg-ink-700/40">
       <video
         autoPlay
         muted
@@ -150,7 +150,7 @@ export default function CreativeSkills() {
         Partical Disslove Animation -iPhone 
       </p>
     </div>
-  </div>
+  </div> */}
 </motion.div>
 
       </div>
