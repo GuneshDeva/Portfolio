@@ -4,7 +4,8 @@ import { personal } from '@/data/portfolio';
 import SectionHeading from './SectionHeading';
 
 export default function GitHubActivity() {
-  const githubStatsUrl = `https://github-readme-stats.vercel.app/api?username=${personal.githubHandle}&show_icons=true&theme=tokyonight&hide_border=true&title_color=FF9800&icon_color=00D9FF&text_color=A7B0BE`;
+  const githubStatsUrl = `https://github-stats-extended.vercel.app/api?username=${personal.githubHandle}&show_icons=true&theme=tokyonight&hide_border=true&title_color=FF9800&icon_color=00D9FF&text_color=A7B0BE`;
+  // const githubStatsUrl = `https://github-readme-stats.vercel.app/api?username=${personal.githubHandle}&show_icons=true&theme=tokyonight&hide_border=true&title_color=FF9800&icon_color=00D9FF&text_color=A7B0BE`;
   const githubStreakUrl = `https://github-readme-streak-stats.herokuapp.com/?user=${personal.githubHandle}&theme=tokyonight&hide_border=true&ring=FF9800&fire=FF9800&currStreakLabel=00D9FF`;
 
   return (

@@ -50,7 +50,7 @@ export const experiences: Experience[] = [
     title: 'Software Developer',
     company: 'Innerspec Technologies Pvt. Ltd.',
     location: 'Bangalore, karnataka, India',
-    dates: 'December 2024 – September 2026',
+    dates: 'December 2024 – October 2026',
     technologies: ['Java', 'Spring Boot', 'Microservices', 'Angular', 'REST APIs'],
     responsibilities: [
       'Enterprise application development and backend engineering',
